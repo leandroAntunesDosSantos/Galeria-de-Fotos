@@ -64,4 +64,4 @@ O tema das fotos é League of Legends, onde há alguns dos personagens da franqu
 <br/>
 <br/>
 
-A aplicação não possui fins comerciais. Todos os direitos reservado a Riot Games.
+A aplicação não possui fins comerciais. Todos os direitos reservados a Riot Games.
