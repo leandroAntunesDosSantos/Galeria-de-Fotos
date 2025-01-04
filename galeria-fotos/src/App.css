@@ -16,9 +16,8 @@
   --bg-color: #f4f4f4;
   --primary-color: #F28E13;
   --secondary-color:#F2A413;
-  --tertiary-color: #04BFAD;
-  --quaternary-color: #F252AA;
-  --quinary-color:#F20F38;
+  --tertiary-color:  rgb(207, 229, 207);
+  --quaternary-color: rgb(236, 216, 236);
 }
 
 body {
@@ -26,5 +25,5 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
-  color: #fff;
+  color: #040404;
 }

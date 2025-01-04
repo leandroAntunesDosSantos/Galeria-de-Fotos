@@ -28,7 +28,7 @@ export default function SearchBar({ onSearch }) {
             <input
                 value={text}
                 type="text"
-                placeholder="Digite o titulo do Post" 
+                placeholder="Digite o nome personagem" 
                 onChange={handleChange}
             />
             <button type='reset' onClick={handleResetClick}>🗙</button>

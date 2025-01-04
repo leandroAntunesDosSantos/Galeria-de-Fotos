@@ -17,7 +17,7 @@
     padding: 0 10px;
     font-size: 16px;
     color: black;
-    background-color: violet;
+    background-color: var(--quaternary-color);
   }
   
   .photo-search-bar input:focus {
@@ -25,24 +25,24 @@
   }
   
   .photo-search-bar input::placeholder {
-    color: rgb(13, 11, 11);
+    color: rgb(116, 99, 99);
   }
   
   .photo-search-bar button {
     width: 40px;
-    color: black;
+    font-size: 20px;
   }
   
   .photo-search-bar button[type="submit"] {
     border-right: none;
     border-radius: 4px 0 0 4px;
     color: black;
-    background-color: green;
+    background-color: var(--tertiary-color);
   }
   
   .photo-search-bar button[type="reset"] {
     border-left: none;
     border-radius: 0 4px 4px 0;
     color: black;
-    background-color: red;
+    background-color: var(--tertiary-color);
   }
