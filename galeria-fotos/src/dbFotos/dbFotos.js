@@ -1,76 +1,82 @@
 const dbFotos = [
     {
         id: 1,
-        titulo: "Lulu Guardiã Estelar",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products%2Fcaaf62d2418e73a8288013d9c0227dceae9bcf19-2560x3200.png&w=1920&q=75",
-        alt: "Foto Lulu Guardiã Estelar"
+        titulo: "Jhin",
+        imagem: "https://s1.zerochan.net/Jhin.600.4327234.jpg",
+        alt: "Foto do Jhin do jogo League of Legends"
       },
       {
         id: 2,
-        titulo: "Ryze figure",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products_live%2F39b96c469fafbfed5fa1749b889c7b6d10af7d20-2560x2560.png&w=828&q=75",
-        alt: "Foto Ryze figure"
+        titulo: "Senna",
+        imagem: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/60fd995d35757aaec4d35d98997cbdc7fd988aae-1920x1080.jpg",
+        alt: "Foto da Senna do jogo League of Legends"
       },
       {
         id: 3,
-        titulo: "Lillia florescer espiritual figure",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products%2Fefdde060b8fa56477dcccd3ea756a03b02d84b28-2560x3200.png&w=1920&q=75",
-        alt: "Foto Lillia florescer espiritual figure"
+        titulo: "Morgana",
+        imagem: "https://i.pinimg.com/originals/1b/68/6a/1b686a03f3461728dcbb03b53d1492c7.jpg",
+        alt: "Foto da Morgana do jogo League of Legends"
       },
       {
         id: 4,
-        titulo: "Soraka Guardiã Estelar",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products%2F6db73f7fec61acbd386f544a8a0e252dbaa59b26-1000x1000.png&w=1920&q=75",
-        alt: "Foto Soraka Guardiã Estelar"
+        titulo: "Soraka",
+        imagem: "https://i.pinimg.com/564x/3d/94/42/3d944265d236dd7c786ead36ed77e2c2.jpg",
+        alt: "Foto da Soraka do jogo League of Legends"
       },
       {
         id: 5,
-        titulo: "Vayne Unlocked Statue",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products_live%2F2cfde03dd83256458249abad7ef830848e74d4a3-2560x3200.png&w=1920&q=75",
-        alt: "Foto Vayne Unlocked Statue"
+        titulo: "Kayle",
+        imagem: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayle_57.jpg",
+        alt: "Foto da Kayle do jogo League of Legends"
       },
       {
         id: 6,
-        titulo: "Lulu Guardiã Estelar",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products%2Fcaaf62d2418e73a8288013d9c0227dceae9bcf19-2560x3200.png&w=1920&q=75",
-        alt: "Foto Lulu Guardiã Estelar"
+        titulo: "Nunu e Willump",
+        imagem: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nunu_2.jpg",
+        alt: "Foto do Nunu e Willump do jogo League of Legends"
       },
       {
         id: 7,
-        titulo: "Ryze figure",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products_live%2F39b96c469fafbfed5fa1749b889c7b6d10af7d20-2560x2560.png&w=828&q=75",
-        alt: "Foto Ryze figure"
+        titulo: "Leona",
+        imagem: "https://pbs.twimg.com/media/FRR1_tlWUAIiLPq.jpg:large",
+        alt: "Foto da Leona do jogo League of Legends"
       },
       {
         id: 8,
-        titulo: "Lillia florescer espiritual figure",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products%2Fefdde060b8fa56477dcccd3ea756a03b02d84b28-2560x3200.png&w=1920&q=75",
+        titulo: "Irelia",
+        imagem: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_6.jpg",
         alt: "Foto Lillia florescer espiritual figure"
       },
       {
         id: 9,
-        titulo: "Soraka Guardiã Estelar",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products%2F6db73f7fec61acbd386f544a8a0e252dbaa59b26-1000x1000.png&w=1920&q=75",
-        alt: "Foto Soraka Guardiã Estelar"
+        titulo: "Ashe",
+        imagem: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_65.jpg",
+        alt: "Foto Ashe do jogo League of Legends"
       },
       {
         id: 10,
-        titulo: "Vayne Unlocked Statue",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products_live%2F2cfde03dd83256458249abad7ef830848e74d4a3-2560x3200.png&w=1920&q=75",
-        alt: "Foto Vayne Unlocked Statue"
+        titulo: "Darius",
+        imagem: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/1db20139aa09a062f1087f55f8841b7d0e9e90ac-1280x720.jpg",
+        alt: "Foto do Darius do jogo League of Legends"
       },
       {
         id: 11,
-        titulo: "Soraka Guardiã Estelar",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products%2F6db73f7fec61acbd386f544a8a0e252dbaa59b26-1000x1000.png&w=1920&q=75",
-        alt: "Foto Soraka Guardiã Estelar"
+        titulo: "Lucian",
+        imagem: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lucian_18.jpg",
+        alt: "Foto do Lucian do jogo League of Legends"
       },
       {
         id: 12,
-        titulo: "Vayne Unlocked Statue",
-        imagem: "https://merch.riotgames.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fdsfx7636%2Fconsumer_products_live%2F2cfde03dd83256458249abad7ef830848e74d4a3-2560x3200.png&w=1920&q=75",
-        alt: "Foto Vayne Unlocked Statue"
+        titulo: "Teemo",
+        imagem: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data/166fc1c8b58e62312e1c3a2986a1d5a0f778675a-1280x720.jpg",
+        alt: "Foto do Teemo do jogo League of Legends"
       },
+      {
+        id: 13,
+        titulo: "Jinx",
+        imagem: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_4.jpg",
+        alt: "Foto da Jinx do jogo League of Legends"
+      }
 ]
 
 export default dbFotos;

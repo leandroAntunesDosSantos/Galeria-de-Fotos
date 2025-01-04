@@ -28,7 +28,7 @@ export default function PhotoList() {
                         />
                     ))
                 ) : (
-                    <li>Não encontramos nenhuma foto com o título "{textoBusca}"</li>
+                    <li className='not-found'>Não encontramos nenhuma foto com o título "{textoBusca}"</li>
                 )}
             </ul>
         </main>

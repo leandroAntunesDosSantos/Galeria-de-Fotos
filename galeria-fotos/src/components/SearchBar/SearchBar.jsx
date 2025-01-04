@@ -7,7 +7,9 @@ export default function SearchBar({ onSearch }) {
     const [text, setText] = useState("");
 
     function handleChange(event) {
-        setText(event.target.value);
+        const novoTexto = event.target.value;
+        setText(novoTexto);
+        onSearch(novoTexto);
     }
 
     function handleResetClick() {
@@ -24,13 +26,52 @@ export default function SearchBar({ onSearch }) {
         <form className="photo-search-bar" onSubmit={handleSubmit}>
             <button type="submit">🔎︎</button>
             <input
-            value={text}
+                value={text}
                 type="text"
                 placeholder="Digite o titulo do Post" 
                 onChange={handleChange}
             />
-            <button onClick={handleResetClick} type='reset'>🗙</button>
+            <button type='reset' onClick={handleResetClick}>🗙</button>
         </form>
     );
 
 }
+
+
+
+
+// import './SearchBar.css';
+// import { useState } from 'react';
+
+// export default function SearchBar({ onSearch }) {
+//     const [text, setText] = useState("");
+
+//     function handleChange(event) {
+//         const newText = event.target.value;
+//         setText(newText);
+//         onSearch(newText); // Chama a função onSearch enquanto digita
+//     }
+
+//     function handleResetClick() {
+//         setText("");
+//         onSearch(""); // Reseta a busca
+//     }
+
+//     function handleSubmit(event) {
+//         event.preventDefault();
+//         onSearch(text);
+//     }
+
+//     return (
+//         <form className="photo-search-bar" onSubmit={handleSubmit}>
+//             <input 
+//                 type="text" 
+//                 value={text} 
+//                 onChange={handleChange} 
+//                 placeholder="Search..." 
+//             />
+//             <button type="reset" onClick={handleResetClick}>Reset</button>
+//             <button type="submit">Search</button>
+//         </form>
+//     );
+// }

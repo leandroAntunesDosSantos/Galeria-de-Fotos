@@ -8,7 +8,6 @@ export default function Photo({props}) {
             </div>
             <div className="photo-info">
                 <h2>{props.titulo}</h2>
-                <p>{props.preco}</p>
             </div>
         </li>
     );

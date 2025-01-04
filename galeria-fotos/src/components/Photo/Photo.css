@@ -3,7 +3,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
-    background-color: var(--tertiary-color);
+    align-items: center;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,8 @@
     gap: 10px;
 }
 
-.photo-card h3 {
-    margin: 10px 0;
-    font-size: 1.2rem;
+.photo-info h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(65, 57, 57);
 }
