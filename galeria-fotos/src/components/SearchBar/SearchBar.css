@@ -1,0 +1,48 @@
+.photo-search-bar {
+    height: 40px;
+    display: flex;
+    color: var(--dsc-color-font-primary);
+  }
+
+
+
+  .photo-search-bar button, .photo-search-bar input {
+    border: 1px solid var(--dsc-color-card-border);
+  }
+  
+  .photo-search-bar input {
+    width: calc(100% - 80px);
+    border-left: none;
+    border-right: none;
+    padding: 0 10px;
+    font-size: 16px;
+    color: black;
+    background-color: violet;
+  }
+  
+  .photo-search-bar input:focus {
+    outline: none;
+  }
+  
+  .photo-search-bar input::placeholder {
+    color: rgb(13, 11, 11);
+  }
+  
+  .photo-search-bar button {
+    width: 40px;
+    color: black;
+  }
+  
+  .photo-search-bar button[type="submit"] {
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    color: black;
+    background-color: green;
+  }
+  
+  .photo-search-bar button[type="reset"] {
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    color: black;
+    background-color: red;
+  }
