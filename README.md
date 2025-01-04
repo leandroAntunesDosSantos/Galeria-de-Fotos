@@ -59,3 +59,9 @@ O tema das fotos é League of Legends, onde há alguns dos personagens da franqu
 <br/>
 
 <img alt="img da galeria de fotos" src="https://github.com/user-attachments/assets/e518f14c-58ef-456f-a1b6-3cba497b76a1" width=1000px/>
+
+<br/>
+<br/>
+<br/>
+
+A aplicação não possui fins comerciais. Todos os direitos reservado a Riot Games.
