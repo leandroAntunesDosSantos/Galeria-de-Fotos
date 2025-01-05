@@ -2,6 +2,10 @@
     padding: 20px 0;
 }
 
+.container-search {
+    margin-top: 40px;
+}
+
 .photo-cards {
     display: grid;
     gap: 20px;
@@ -9,10 +13,6 @@
     min-height: 500px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
 
 .not-found {
     color: black;

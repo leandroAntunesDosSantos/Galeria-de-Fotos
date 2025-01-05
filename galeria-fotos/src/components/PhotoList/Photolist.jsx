@@ -18,7 +18,7 @@ export default function PhotoList() {
 
     return (
         <>
-        <div className="container mt20">
+        <div className="container container-search">
             <SearchBar onSearch={handleSearch} />
         </div>
         <main id="photo" className="container mt20">
@@ -31,7 +31,7 @@ export default function PhotoList() {
                         />
                     ))
                 ) : (
-                    <li className='not-found'>Não encontramos nenhuma foto com o título "{textoBusca}"</li>
+                    <li className='not-found'>Não encontramos nenhuma foto com o nome "{textoBusca}"</li>
                 )}
             </ul>
         </main>

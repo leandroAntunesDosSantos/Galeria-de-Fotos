@@ -4,9 +4,7 @@
     color: var(--dsc-color-font-primary);
   }
 
-
-
-  .photo-search-bar button, .photo-search-bar input {
+  .photo-search-bar button {
     border: 1px solid var(--dsc-color-card-border);
   }
   
@@ -14,6 +12,8 @@
     width: calc(100% - 80px);
     border-left: none;
     border-right: none;
+    border-top: 1px solid var(--quinary-color);
+    border-bottom: 1px solid var(--quinary-color);
     padding: 0 10px;
     font-size: 16px;
     color: black;
@@ -36,14 +36,12 @@
   .photo-search-bar button[type="submit"] {
     border-right: none;
     border-radius: 4px 0 0 4px;
-    color: black;
     background-color: var(--tertiary-color);
   }
   
   .photo-search-bar button[type="reset"] {
     border-left: none;
     border-radius: 0 4px 4px 0;
-    color: black;
     background-color: var(--tertiary-color);
     padding-bottom: 4px;
   }

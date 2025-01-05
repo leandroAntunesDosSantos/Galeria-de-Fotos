@@ -14,10 +14,11 @@
 
 :root {
   --bg-color: #f4f4f4;
-  --primary-color: #F28E13;
-  --secondary-color:#F2A413;
+  --primary-color: #407fd1;
+  --secondary-color:#328a8d;
   --tertiary-color:  rgb(207, 229, 207);
-  --quaternary-color: rgb(236, 216, 236);
+  --quaternary-color: rgb(250, 242, 250);
+  --quinary-color: rgb(158, 147, 147);
 }
 
 body {

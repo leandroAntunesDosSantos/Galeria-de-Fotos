@@ -1,10 +1,11 @@
 .footer-container{
     display: flex;
+    height: 100px;
 }
 
 .footer-item{
     background-color: var(--secondary-color);
-    color: white;
+    color: var(--bg-color);
     text-align: center;
     padding: 10px;
     bottom: 0;

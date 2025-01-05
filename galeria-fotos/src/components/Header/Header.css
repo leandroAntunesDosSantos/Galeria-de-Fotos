@@ -1,6 +1,6 @@
 .header-container {
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--bg-color);
     padding: 10px 0;
     text-align: center;
     min-height: 60px;
