@@ -58,7 +58,7 @@ O tema das fotos é League of Legends, onde há alguns dos personagens da franqu
 
 <br/>
 
-<img alt="img da galeria de fotos" src="https://github.com/user-attachments/assets/e518f14c-58ef-456f-a1b6-3cba497b76a1" width=1000px/>
+<img alt="img da galeria de fotos" src="https://github.com/user-attachments/assets/7fc2cbe7-6679-48d3-83ab-f9ad9ba7fc08" width=1000px/>
 
 <br/>
 <br/>
