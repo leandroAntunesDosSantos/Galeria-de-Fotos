@@ -45,4 +45,5 @@
     border-radius: 0 4px 4px 0;
     color: black;
     background-color: var(--tertiary-color);
+    padding-bottom: 4px;
   }

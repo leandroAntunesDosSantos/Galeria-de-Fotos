@@ -64,4 +64,6 @@ O tema das fotos é League of Legends, onde há alguns dos personagens da franqu
 <br/>
 <br/>
 
+Os componentes que estão sendo renderizados estão presentes em um arquivo estático `dbFotos.js`. Este arquivo é um array de objetos que simula uma requisição de uma API, contendo o `id`, `nome`, `imagem` e `alt` necessários para a utilização do componente.
+
 A aplicação não possui fins comerciais. Todos os direitos reservados a Riot Games.

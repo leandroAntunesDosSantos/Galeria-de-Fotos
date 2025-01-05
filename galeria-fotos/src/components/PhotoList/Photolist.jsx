@@ -17,8 +17,11 @@ export default function PhotoList() {
     }
 
     return (
-        <main id="photo" className="container mt20">
+        <>
+        <div className="container mt20">
             <SearchBar onSearch={handleSearch} />
+        </div>
+        <main id="photo" className="container mt20">
             <ul className="photo-cards mb20 mt20">
                 {buscarFotos.length > 0 ? (
                     buscarFotos.map((photo) => (
@@ -32,6 +35,7 @@ export default function PhotoList() {
                 )}
             </ul>
         </main>
+        </>
     );
 }
 
