@@ -58,12 +58,12 @@ O tema das fotos é League of Legends, onde há alguns dos personagens da franqu
 
 <br/>
 
-<img alt="img da galeria de fotos" src="https://github.com/user-attachments/assets/7fc2cbe7-6679-48d3-83ab-f9ad9ba7fc08" width=1000px/>
+<img alt="img da galeria de fotos" src="https://github.com/user-attachments/assets/c9da4c52-5d10-4f9d-bfe3-f857ed7ff4ab" width=1000px/>
 
 <br/>
 <br/>
 <br/>
 
-Os componentes que estão sendo renderizados estão presentes em um arquivo estático `dbFotos.js`. Este arquivo é um array de objetos que simula uma requisição de uma API, contendo o `id`, `nome`, `imagem` e `alt` necessários para a utilização do componente.
+Os componentes que estão sendo renderizados estão presentes em um arquivo estático `dbFotos.js`. Este arquivo é um array de objetos que simula uma requisição de uma API, contendo o `id`, `titulo`, `imagem` e `alt` necessários para a utilização do componente.
 
 A aplicação não possui fins comerciais. Todos os direitos reservados a Riot Games.
