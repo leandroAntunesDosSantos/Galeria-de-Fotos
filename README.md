@@ -9,7 +9,12 @@ Projeto feito utilizando o gerenciador de dependências Yarn. Para instalar o Ya
 ```bash
 npm install --global yarn
 ```
+## Tecnologias utilizadas
 
+- HTML
+- CSS
+- JavaScript (Node v22.11.0)
+- React.js
 
 ## Criar um novo projeto
 
